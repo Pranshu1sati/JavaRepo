@@ -1,4 +1,3 @@
-package Week2.ThisWeeksTask;
 import java.util.*;
 class Game{
     Scanner inp = new Scanner(System.in);
