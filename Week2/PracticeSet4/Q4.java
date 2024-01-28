@@ -1,5 +1,3 @@
-package Week2.PracticeSet4;
-
 class Rectangle{
     private int length;
     private int width;
