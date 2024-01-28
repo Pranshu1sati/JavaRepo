@@ -1,5 +1,3 @@
-package Week2.PracticeSet4;
-
 class Sphere{
     private float radius;
     public Sphere() {
