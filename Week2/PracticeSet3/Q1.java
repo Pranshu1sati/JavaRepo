@@ -1,5 +1,3 @@
-package Week2.PracticeSet3;
-
 class Employee{
 
     int salary;
