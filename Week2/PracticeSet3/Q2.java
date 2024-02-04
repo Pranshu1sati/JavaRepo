@@ -1,5 +1,3 @@
-package Week2.PracticeSet3;
-
 class CellPhone{
     public void ringing(){
         System.out.println("Ringing...");

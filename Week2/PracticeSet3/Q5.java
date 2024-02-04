@@ -1,5 +1,3 @@
-package Week2.PracticeSet3;
-
 class TommyVecetti{
     public void hitting(){
         System.out.println("Hitting...");

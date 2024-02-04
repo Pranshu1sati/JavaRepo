@@ -12,8 +12,9 @@ public class PracticeSet3 {
     }
 
     public static String Question3(String Name) {
-        String a = "Dear , how are you?";
-        return a.replaceFirst(",", Name + ","); // Corrected replacement
+        String a = "Dear <\namehere/>, how are you?";
+        return a.replaceFirst("<\\n" + //
+                "amehere/>", Name); // Corrected replacement
     }
 
     public static String Question4(String Input) {
@@ -62,7 +63,7 @@ public class PracticeSet3 {
         // Test the methods here
         System.out.println(Question1("ExampleName"));
         System.out.println(Question2("This is a test"));
-        System.out.println(Question3("Harry"));
+        System.out.println(Question3("Name"));
         Question4Modified("This  is  a   test");
         question5("Dear Ma'am nice training thankyou");
     }
