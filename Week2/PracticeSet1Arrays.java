@@ -1,5 +1,3 @@
-package Week2;
-
 public class PracticeSet1Arrays {
 
     public static void reverse(int[] array) {
@@ -124,12 +122,17 @@ public class PracticeSet1Arrays {
         int[] intArray = {1, 2, 3, 4, 5};
         float[][] m1 = {{1, 2, 3}, {2, 3, 4}, {4, 5, 6}};
         float[][] m2 = {{1, 2, 6}, {2, 3, 7}, {4, 5, 8}};
-
+System.out.println("Q1");
         q1(arr);
+        System.out.println("Q2");
         q2(arr, 4.5f);
+        System.out.println("Q3");
         q3(arr);
+        System.out.println("Q4");
         q4(m1, m2);
+        System.out.println("Q5");
         q5(intArray);
+        System.out.println("Q6");
         q6(arr);
     }
 }
