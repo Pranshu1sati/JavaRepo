@@ -12,7 +12,7 @@ public class Q2 {
         try {
             if (conn==null){
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                String url = "jdbc:mysql://localhost:3306/Renocrew";
+                String url = "jdbc:mysql://localhost:3306/LocalInstance";
 
                 conn = DriverManager.getConnection(url,username,password);
             }
